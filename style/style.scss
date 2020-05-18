@@ -1,0 +1,29 @@
+@import "_nav.scss";
+@import "_mainbody.scss";
+@import "_footer.scss";
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.row {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    //text-align: center;
+    border: 2px solid red;
+    
+}

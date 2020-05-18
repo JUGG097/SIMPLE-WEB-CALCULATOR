@@ -6,9 +6,83 @@
     <meta name="Author" content="Adeoluwa Adeboye">
     <title>SIMPLE JAVASCRIPT CALCULATOR</title>
 
-    <link href="style/style.css" rel="stylesheet">
+    <link href="dist/css/style.min.css" rel="stylesheet">
+
 </head>
 <body>
-    
+     <nav class="container">
+        <div class="row">
+            <div class="col-big">
+                <p>SIMPLE CALC</p>
+            </div>
+
+            <div class="col-small">
+                <p>CODE</p>
+            </div>
+        </div>
+     </nav>
+
+     <main class="container">
+
+        <div class="row">
+            
+        </div>
+
+        <div class="row-table">
+            <table border = 1>
+
+                <tr>
+                    <td colspan="4" align="right" class="num"> 
+                        <input type = "text" id="result" value=0> 
+                    </td>
+                </tr>
+            
+                 <tr>
+                     <td id="clear" class="operator">AC</td>
+                     <td class = "symbol operator" id="leftp">(</td>
+                     <td class = "symbol operator" id="rightp">)</td>
+                     <td class = "symbol operator" id="div">/</td>
+                 </tr>
+            
+                 <tr>
+                    <td class = "symbol num" id="num7">7</td>
+                    <td class = "symbol num" id="num8">8</td>
+                    <td class = "symbol num" id="num9">9</td>
+                    <td class = "symbol operator" id="mult">*</td>
+                </tr>
+            
+                <tr>
+                    <td class = "symbol num" id="num4">4</td>
+                    <td class = "symbol num" id="num5">5</td>
+                    <td class = "symbol num" id="num6">6</td>
+                    <td class = "symbol operator" id="sub">-</td>
+                </tr>
+            
+                <tr>
+                    <td class = "symbol num" id="num1">1</td>
+                    <td class = "symbol num" id="num2">2</td>
+                    <td class = "symbol num" id="num3">3</td>
+                    <td class = "symbol operator" id="plus">+</td>
+                </tr>
+            
+                <tr>
+                    <td id="del" class="num">del</td>
+                    <td class = "symbol num" id="num0">0</td>
+                    <td class = "symbol num" id="decimal">.</td>
+                    <td id="equal" class="operator">=</td>
+                </tr>
+             </table>
+        </div>
+     </main>
+
+     <footer class="container">
+        <div class="row">
+            <div class="col">
+
+            </div>
+        </div>
+     </footer>
+
+     <script src="scripts/main.js"></script>
 </body>
-</html>
+</html>  

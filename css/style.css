@@ -1,0 +1,100 @@
+nav {
+  min-height: 100px;
+  background-color: gray;
+}
+
+nav .col-big {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid red;
+}
+
+nav .col-small {
+  width: 25%;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid red;
+}
+
+.row-table {
+  width: 85%;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+table {
+  width: 85%;
+  min-height: 400px;
+  margin: 0 auto;
+  border-spacing: 0.5em;
+  border: 2px solid black;
+}
+
+td {
+  padding: 1em;
+  text-align: center;
+  border: 2px solid red;
+}
+
+td input {
+  width: 90%;
+  height: 50px;
+  text-align: center;
+}
+
+td:hover, td:focus {
+  background-color: yellow;
+}
+
+.operator {
+  background-color: white;
+}
+
+.num {
+  background-color: red;
+}
+
+footer {
+  max-height: 100px;
+  background-color: gray;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+/*# sourceMappingURL=style.css.map */

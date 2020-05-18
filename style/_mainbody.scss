@@ -1,0 +1,41 @@
+.row-table {
+    width: 85%;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+
+table {
+    width: 85%;
+    min-height: 400px;;
+    margin: 0 auto;
+    border-spacing: 0.5em;
+    border: 2px solid black;;
+
+}
+
+
+td {
+    padding: 1em;
+    text-align: center;
+    //background-color: red;
+    border: 2px solid red;
+    input {
+        width: 90%;
+        height: 50px;
+        text-align: center;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: yellow;
+    }
+}
+
+.operator {
+    background-color: white;
+}
+
+.num {
+    background-color: red;
+}

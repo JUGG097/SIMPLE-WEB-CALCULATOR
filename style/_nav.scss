@@ -1,0 +1,22 @@
+nav {
+    min-height: 100px;
+    background-color: gray;
+    //text-align: center;
+
+    .col-big {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        border: 2px solid red;
+    }
+
+    .col-small {
+        width: 25%;
+        justify-content: right;
+        display: flex;
+        align-items: center;
+        border: 2px solid red;
+        
+    }
+}
+
