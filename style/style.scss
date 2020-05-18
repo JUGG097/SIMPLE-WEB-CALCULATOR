@@ -12,6 +12,8 @@ html, body {
 body {
     //height: 100vh;
     background-color: black;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -29,8 +31,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    //text-align: center;
-    border: 2px solid red;
+    
     
 }
 

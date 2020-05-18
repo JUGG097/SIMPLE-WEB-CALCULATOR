@@ -4,7 +4,6 @@ nav {
   color: red;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  position: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -23,7 +22,6 @@ nav .col-big {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 2px solid red;
 }
 
 nav .col-small {
@@ -37,7 +35,6 @@ nav .col-small {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 2px solid red;
 }
 
 nav a {
@@ -62,11 +59,27 @@ nav a:hover, nav a:focus {
   }
 }
 
+main {
+  border: 2px solid red;
+}
+
+main .col {
+  margin-top: 1em;
+  border: 2px solid red;
+  width: 25%;
+  color: red;
+  text-align: center;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+main .col:hover, main .col:focus {
+  background-color: yellow;
+}
+
 .row-table {
   width: 85%;
   margin: 0 auto;
-  border: 2px solid red;
-  margin-top: 7em;
 }
 
 table {
@@ -75,22 +88,28 @@ table {
   margin: 0 auto;
   border-spacing: 0.5em;
   border: 2px solid black;
+  font-family: 'Bungee Inline', cursive;
 }
 
 td {
   padding: 1em;
   text-align: center;
-  border: 2px solid red;
 }
 
 td input {
   width: 90%;
   height: 50px;
   text-align: center;
+  font-family: 'Bungee Inline', cursive;
+  font-size: large;
 }
 
 td:hover, td:focus {
   background-color: yellow;
+}
+
+.special-padding {
+  padding: 0.3em;
 }
 
 .operator {
@@ -152,6 +171,8 @@ html, body {
 
 body {
   background-color: black;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -168,7 +189,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 a {
