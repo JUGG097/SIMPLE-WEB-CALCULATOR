@@ -1,4 +1,23 @@
 footer {
     max-height: 100px;
     background-color: gray;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;;
+
+
+    a {
+        color: red;
+
+        &:hover,
+        &:focus {
+            color: yellow;
+        }
+    }
+
+    .col {
+        padding: 1em;
+    }
 }

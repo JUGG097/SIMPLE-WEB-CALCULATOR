@@ -1,7 +1,23 @@
+$nav-item-color: red;
+
 nav {
-    min-height: 100px;
+    //min-height: 100px;
+    margin: 0 auto;;
     background-color: gray;
+    color: $nav-item-color;
+    align-self: flex-start;
     //text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Montez', cursive;
+    font-weight: bold;
+    letter-spacing: 0.2em;;
+
+    
 
     .col-big {
         width: 50%;
@@ -18,5 +34,30 @@ nav {
         border: 2px solid red;
         
     }
+
+    a {
+        color: $nav-item-color;
+
+        &:hover,
+        &:focus {
+            color: yellow;
+        }
+    }
+
 }
 
+@media (min-width: 750px) {
+    .nav {
+        font-size: 21px;
+        font-weight: bolder;
+    }
+    
+}
+
+@media (min-width: 750px) {
+    .nav {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    
+}

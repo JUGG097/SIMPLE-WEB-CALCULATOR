@@ -1,6 +1,18 @@
 nav {
-  min-height: 100px;
+  margin: 0 auto;
   background-color: gray;
+  color: red;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Montez', cursive;
+  font-weight: bold;
+  letter-spacing: 0.2em;
 }
 
 nav .col-big {
@@ -28,10 +40,33 @@ nav .col-small {
   border: 2px solid red;
 }
 
+nav a {
+  color: red;
+}
+
+nav a:hover, nav a:focus {
+  color: yellow;
+}
+
+@media (min-width: 750px) {
+  .nav {
+    font-size: 21px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 750px) {
+  .nav {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+}
+
 .row-table {
   width: 85%;
   margin: 0 auto;
   border: 2px solid red;
+  margin-top: 7em;
 }
 
 table {
@@ -66,9 +101,44 @@ td:hover, td:focus {
   background-color: red;
 }
 
+@media (min-height: 800px) {
+  .row-table {
+    margin-top: 9em;
+  }
+}
+
+@media (min-height: 1000px) {
+  .row-table {
+    margin-top: 11em;
+  }
+}
+
+@media (min-height: 1200px) {
+  .row-table {
+    margin-top: 13em;
+  }
+}
+
 footer {
   max-height: 100px;
   background-color: gray;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: red;
+}
+
+footer a:hover, footer a:focus {
+  color: yellow;
+}
+
+footer .col {
+  padding: 1em;
 }
 
 *, *::before, *::after {
@@ -76,8 +146,11 @@ footer {
           box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
-  height: 100vh;
   background-color: black;
 }
 
@@ -96,5 +169,9 @@ body {
           justify-content: space-between;
   margin: 0 auto;
   border: 2px solid red;
+}
+
+a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

@@ -6,15 +6,21 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
-
-body {
-    height: 100vh;
-    background-color: black;
+html, body {
+    height: 100%;
 }
+body {
+    //height: 100vh;
+    background-color: black;
+    
+}
+
+
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    
     
 }
 
@@ -26,4 +32,8 @@ body {
     //text-align: center;
     border: 2px solid red;
     
+}
+
+a {
+    text-decoration: none;
 }
