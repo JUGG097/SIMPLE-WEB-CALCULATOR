@@ -1,3 +1,38 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
 nav {
   margin: 0 auto;
   background-color: gray;
@@ -59,18 +94,12 @@ nav a:hover, nav a:focus {
   }
 }
 
-main {
-  border: 2px solid red;
-}
-
 main .col {
   margin-top: 1em;
-  border: 2px solid red;
   width: 25%;
-  color: red;
   text-align: center;
   background-color: grey;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 main .col:hover, main .col:focus {
@@ -80,6 +109,18 @@ main .col:hover, main .col:focus {
 .row-table {
   width: 85%;
   margin: 0 auto;
+}
+
+.blue {
+  color: blue;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: green;
 }
 
 table {
@@ -122,19 +163,19 @@ td:hover, td:focus {
 
 @media (min-height: 800px) {
   .row-table {
-    margin-top: 9em;
+    margin-top: 5em;
   }
 }
 
 @media (min-height: 1000px) {
   .row-table {
-    margin-top: 11em;
+    margin-top: 9em;
   }
 }
 
 @media (min-height: 1200px) {
   .row-table {
-    margin-top: 13em;
+    margin-top: 11em;
   }
 }
 
@@ -158,40 +199,5 @@ footer a:hover, footer a:focus {
 
 footer .col {
   padding: 1em;
-}
-
-*, *::before, *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html, body {
-  height: 100%;
-}
-
-body {
-  background-color: black;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.row {
-  width: 85%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

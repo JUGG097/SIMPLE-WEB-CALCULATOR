@@ -1,19 +1,20 @@
 main {
-    border: 2px solid red;
+    
 
     .col {
         margin-top: 1em;
-        border: 2px solid red;
+        //border: 2px solid red;
         width: 25%;
-        color: red;
+        //color: red;
         text-align: center;
         background-color: grey;
-        border-radius: 10px;
+        border-radius: 30px;
 
         &:hover,
         &:focus {
             background-color: yellow;
     }
+
 
     }
 }
@@ -27,6 +28,17 @@ main {
     
 }
 
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
 
 table {
     width: 85%;
@@ -68,12 +80,14 @@ td {
 
 .num {
     background-color: red;
+    
 }
+
 
 @media (min-height: 800px) {
     .row-table {
         
-        margin-top: 9em;
+        margin-top: 5em;
         
     }
     
@@ -82,7 +96,7 @@ td {
 @media (min-height: 1000px) {
     .row-table {
         
-        margin-top: 11em;
+        margin-top: 9em;
         
     }
     
@@ -91,7 +105,7 @@ td {
 @media (min-height: 1200px) {
     .row-table {
         
-        margin-top: 13em;
+        margin-top: 11em;
         
     }
     

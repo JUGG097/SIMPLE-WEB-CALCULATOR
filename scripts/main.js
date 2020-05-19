@@ -27,3 +27,39 @@ clear.addEventListener("click", () => result.value = 0);
 equal.addEventListener("click", () => result.value = eval(result.value));
 
 del.addEventListener("click", () => result.value = result.value.slice(0, -1));
+
+let blue = document.getElementById("blue");
+let orange = document.getElementById("orange");
+let green = document.getElementById("green");
+let num = document.getElementsByClassName("num");
+
+
+
+
+function bluecolor () {
+    //let col = e.color;
+    for (let i = 0; i < num.length; i++) {
+      
+        num[i].style.cssText = "background-color:blue;";
+}
+}
+
+function greencolor () {
+    //let col = e.color;
+    for (let i = 0; i < num.length; i++) {
+      
+        num[i].style.cssText = "background-color:green;";
+}
+}
+
+function orangecolor () {
+    //let col = e.color;
+    for (let i = 0; i < num.length; i++) {
+      
+        num[i].style.cssText = "background-color:orange;";
+}
+}
+
+blue.addEventListener("click", bluecolor);
+orange.addEventListener("click", orangecolor);
+green.addEventListener("click", greencolor);
