@@ -31,6 +31,11 @@ body {
 
 a {
   text-decoration: none;
+  color: red;
+}
+
+a:hover, a:focus {
+  color: yellow;
 }
 
 nav {
@@ -39,11 +44,7 @@ nav {
   color: red;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  left: 0;
-  right: 0;
-  top: 0;
   width: 100%;
-  margin: 0 auto;
   font-family: 'Montez', cursive;
   font-weight: bold;
   letter-spacing: 0.2em;
@@ -72,14 +73,6 @@ nav .col-small {
           align-items: center;
 }
 
-nav a {
-  color: red;
-}
-
-nav a:hover, nav a:focus {
-  color: yellow;
-}
-
 @media (min-width: 750px) {
   .nav {
     font-size: 21px;
@@ -95,11 +88,13 @@ nav a:hover, nav a:focus {
 }
 
 main .col {
-  margin-top: 1em;
+  margin-top: 0.5em;
   width: 25%;
   text-align: center;
   background-color: grey;
   border-radius: 30px;
+  font-family: 'Montez', cursive;
+  font-weight: bold;
 }
 
 main .col:hover, main .col:focus {
@@ -145,10 +140,6 @@ td input {
   font-size: large;
 }
 
-td:hover, td:focus {
-  background-color: yellow;
-}
-
 .special-padding {
   padding: 0.3em;
 }
@@ -157,8 +148,17 @@ td:hover, td:focus {
   background-color: white;
 }
 
+.operator:hover, .operator:focus {
+  background-color: yellow;
+}
+
 .num {
   background-color: red;
+  border: 2px solid;
+}
+
+.num:hover, .num:focus {
+  color: yellow;
 }
 
 @media (min-height: 800px) {
@@ -180,7 +180,7 @@ td:hover, td:focus {
 }
 
 footer {
-  max-height: 100px;
+  max-height: 80px;
   background-color: gray;
   position: fixed;
   left: 0;
@@ -189,15 +189,7 @@ footer {
   width: 100%;
 }
 
-footer a {
-  color: red;
-}
-
-footer a:hover, footer a:focus {
-  color: yellow;
-}
-
 footer .col {
-  padding: 1em;
+  padding: 0.5em;
 }
 /*# sourceMappingURL=style.css.map */

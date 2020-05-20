@@ -1,3 +1,5 @@
+//================= JAVASCRIPT FUNCTION FOR THE TABLE ELEMENT==================
+
 function printSymbol(e) {
     let listdigit = [0,1,2,3,4,5,6,7,8,9];
     let result = document.getElementById("result");
@@ -28,6 +30,8 @@ equal.addEventListener("click", () => result.value = eval(result.value));
 
 del.addEventListener("click", () => result.value = result.value.slice(0, -1));
 
+
+//==================================== JAVASCRIPT SCRIPT FOR THE BACKGROUND COLOR CHANGERS=============
 let blue = document.getElementById("blue");
 let orange = document.getElementById("orange");
 let green = document.getElementById("green");
@@ -37,7 +41,6 @@ let num = document.getElementsByClassName("num");
 
 
 function bluecolor () {
-    //let col = e.color;
     for (let i = 0; i < num.length; i++) {
       
         num[i].style.cssText = "background-color:blue;";
@@ -45,7 +48,6 @@ function bluecolor () {
 }
 
 function greencolor () {
-    //let col = e.color;
     for (let i = 0; i < num.length; i++) {
       
         num[i].style.cssText = "background-color:green;";
@@ -53,7 +55,6 @@ function greencolor () {
 }
 
 function orangecolor () {
-    //let col = e.color;
     for (let i = 0; i < num.length; i++) {
       
         num[i].style.cssText = "background-color:orange;";

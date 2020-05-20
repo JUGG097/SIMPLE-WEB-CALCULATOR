@@ -1,18 +1,15 @@
 $nav-item-color: red;
 
 nav {
-    //min-height: 100px;
     margin: 0 auto;;
     background-color: gray;
     color: $nav-item-color;
     align-self: flex-start;
-    //text-align: center;
-    //position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
+    //left: 0;
+    //right: 0;
+    //top: 0;
     width: 100%;
-    margin: 0 auto;
+    //margin: 0 auto;
     font-family: 'Montez', cursive;
     font-weight: bold;
     letter-spacing: 0.2em;;
@@ -35,14 +32,6 @@ nav {
         
     }
 
-    a {
-        color: $nav-item-color;
-
-        &:hover,
-        &:focus {
-            color: yellow;
-        }
-    }
 
 }
 

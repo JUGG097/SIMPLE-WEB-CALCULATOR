@@ -33,6 +33,12 @@ body {
 
 a {
     text-decoration: none;
+    color: red;
+
+        &:hover,
+        &:focus {
+            color: yellow;
+        }
 }
 
 @import "_nav.scss";

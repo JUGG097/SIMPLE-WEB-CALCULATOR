@@ -2,13 +2,13 @@ main {
     
 
     .col {
-        margin-top: 1em;
-        //border: 2px solid red;
+        margin-top: 0.5em;
         width: 25%;
-        //color: red;
         text-align: center;
         background-color: grey;
         border-radius: 30px;
+        font-family: 'Montez', cursive;
+        font-weight: bold;
 
         &:hover,
         &:focus {
@@ -23,8 +23,6 @@ main {
 .row-table {
     width: 85%;
     margin: 0 auto;
-    
-    //margin-top: 7em;
     
 }
 
@@ -64,10 +62,7 @@ td {
 
     }
 
-    &:hover,
-    &:focus {
-        background-color: yellow;
-    }
+    
 }
 
 .special-padding {
@@ -76,10 +71,19 @@ td {
 
 .operator {
     background-color: white;
+    &:hover,
+    &:focus {
+        background-color: yellow;
+    }
 }
 
 .num {
     background-color: red;
+    border: 2px solid;
+    &:hover,
+    &:focus {
+        color: yellow;
+    }
     
 }
 
